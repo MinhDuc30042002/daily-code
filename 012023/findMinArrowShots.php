@@ -10,6 +10,7 @@ function findMinArrowShots($points)
     sort($points);
     $pre = $points[0];
 
+    
     for ($i = 1; $i < count($points); $i++) {
         $current_start_point = $points[$i][0];
         $current_end_point = $points[$i][1];
